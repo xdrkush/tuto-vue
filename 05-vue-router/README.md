@@ -1,35 +1,25 @@
-# 02-skeleton
+# 04-vue-router
 
-Tuto Réaliser avec Vuetify
+Intégration de vue-router
+  - Mise en place d'un layout dynamique
 
-## 01 Vue-Cli (use for tuto)
-```
-npm install -g @vue/cli
+./src/layouts/MyLayout.vue
+  - On Initialise notre Layout avec un 'router-view' pour faire circuler nos pages
 
-```
+./src/router/routes.js
+  - Création du router avec Layout Parent et Pages Enfant que l'on export
 
-if error add command 'sudo'
+./src/main.js
+  - On importe notre router et on demande a notre vue de l'utiliser
 
-```
-sudo npm install -g @vue/cli
+./src/App.vue
+  - On initialise notre App.vue avec router-view pour qu'il fassent circuler notre router
 
-```
+./src/pages/Contact.vue
+  - On créé notre pages avec ses components
 
-Source:
-  - https://cli.vuejs.org/guide/installation.html
-
-## 02 Create Project with vuetify
-```
-vue create myProject
-cd myProject
-vue add vuetify
-npm i
-npm run serve
-```
-
-## 03 Create Project with vuetify
-Template (layout) utilisé:
-  - https://github.com/vuetifyjs/vuetify/blob/master/packages/docs/src/layouts/layouts/demos/baseline.vue
+./src/pages/Home.vue
+  - On créé notre pages avec ses components
 
 ## Project setup
 ```
