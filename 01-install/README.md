@@ -1,6 +1,5 @@
 # 01-install
 
-## Vue-Cli (use for tuto)
 ```
 npm install -g @vue/cli
 

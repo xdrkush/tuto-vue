@@ -1,24 +1,5 @@
 # 02-skeleton
 
-Tuto Réaliser avec Vuetify
-
-## 01 Vue-Cli (use for tuto)
-```
-npm install -g @vue/cli
-
-```
-
-if error add command 'sudo'
-
-```
-sudo npm install -g @vue/cli
-
-```
-
-Source:
-  - https://cli.vuejs.org/guide/installation.html
-
-## 02 Create Project with vuetify
 ```
 vue create myProject
 cd myProject
@@ -26,6 +7,17 @@ vue add vuetify
 npm i
 npm run serve
 ```
+
+Ce tuto n'est que l'instalation de vuetify
+
+./src/App.vue
+  - Import et utilisation de vuetify par vue
+
+./src/plugins/vuetify.js
+  - Configuration de vuetify
+
+./src/main.js
+  - On demande à notre vue d'utiliser vuetify
 
 ## Project setup
 ```
