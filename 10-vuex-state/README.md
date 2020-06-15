@@ -1,9 +1,8 @@
-# 08-Computed
+# 09-props
 
-Intégration de computed (fonction calculé)
-  - computed base
-  - computed simple
-  - computed advanced
+Intégration de state avec vuex
+  - store
+  - mapState
   
 ## Project setup
 ```

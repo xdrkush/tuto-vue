@@ -10,6 +10,9 @@ Ici sont intégrés les composants de façon basique
 
 Nous verons plus en détail les components quand 'vue-router' sera installer et nous aurons un layout dynamique
 
+Source:
+  - https://fr.vuejs.org/v2/guide/components.html
+
 ## Project setup
 ```
 npm install

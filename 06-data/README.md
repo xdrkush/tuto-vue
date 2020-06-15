@@ -1,36 +1,15 @@
-# 02-skeleton
+# 06-data
 
-Tuto Réaliser avec Vuetify
+Intégration de data:
+  - Data Simple
+  - Data Object
+  - Data Array
 
-## 01 Vue-Cli (use for tuto)
-```
-npm install -g @vue/cli
+Si l'on observe les components (./src/components/components.vue)
+  - on voit bien que un certain nombre de data on été attribuer
 
-```
-
-if error add command 'sudo'
-
-```
-sudo npm install -g @vue/cli
-
-```
-
-Source:
-  - https://cli.vuejs.org/guide/installation.html
-
-## 02 Create Project with vuetify
-```
-vue create myProject
-cd myProject
-vue add vuetify
-npm i
-npm run serve
-```
-
-## 03 Create Project with vuetify
-Template (layout) utilisé:
-  - https://github.com/vuetifyjs/vuetify/blob/master/packages/docs/src/layouts/layouts/demos/baseline.vue
-
+L'on verra ça plus attentivement au moment de leur utilisation avec les methods, computed, props, state, ...
+  
 ## Project setup
 ```
 npm install

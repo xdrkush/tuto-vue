@@ -21,6 +21,9 @@ Intégration de vue-router
 ./src/pages/Home.vue
   - On créé notre pages avec ses components
 
+Source:
+  - https://router.vuejs.org/
+
 ## Project setup
 ```
 npm install
