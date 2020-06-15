@@ -1,8 +1,8 @@
-# 10 - State
+# 11 - Action
 
 Intégration de state avec vuex
   - store
-  - mapState
+  - mapActions
   
 ## Project setup
 ```
