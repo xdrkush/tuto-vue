@@ -32,8 +32,6 @@ export default {
 	props: {
 		dataNews: {},
 		countData: Number
-	},
-	computed: {
 	}
 };
 </script>

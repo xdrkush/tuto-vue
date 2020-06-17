@@ -16,10 +16,6 @@
 		<resultComponent titre="Liste Result :" />
 		<!-- / List Result Components -->
 
-		<!-- List Crypto Components -->
-		<cryptoComponent />
-		<!-- / List Crypto Components -->
-
 	</div>
 </template>
 
@@ -29,7 +25,6 @@ import titleComponent from "../components/titleComponent";
 import newsComponent from "../components/newsComponent";
 import resultComponent from "../components/resultComponent";
 import searchComponent from "../components/searchComponent";
-import cryptoComponent from "../components/cryptoComponent";
 
 export default {
 	name: "HomePage",
@@ -37,8 +32,7 @@ export default {
 		titleComponent,
 		searchComponent,
 		newsComponent,
-		resultComponent,
-		cryptoComponent
+		resultComponent
 	},
 	methods: {
 		getChildSearch (value) {

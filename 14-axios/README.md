@@ -2,7 +2,7 @@
 
 Intégration de state avec vuex
   - store
-  - mapActions
+  - Axios (requete http)
 
 Source:
   - https://fr.vuejs.org/v2/cookbook/using-axios-to-consume-apis.html
