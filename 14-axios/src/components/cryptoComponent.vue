@@ -61,7 +61,7 @@
 </template>
 
 <script>
-import { mapState, mapActions } from "vuex";
+import { mapState, mapActions, mapGetters } from "vuex";
 export default {
 	data() {
 		return {
@@ -76,7 +76,8 @@ export default {
 		inputConverter() {
 			return this.changeConverter(this.priceBtc)
 		},
-		...mapState("crypto", ["price", "converter"])
+    ...mapState("crypto", ["price", "converter"]),
+    ...mapGetters("crypto", ["getPrice"])
 	}
 };
 </script>

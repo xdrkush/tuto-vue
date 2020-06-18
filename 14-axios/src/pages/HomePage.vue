@@ -15,7 +15,6 @@
 		<!-- List Result Components -->
 		<resultComponent titre="Liste Result :" />
 		<!-- / List Result Components -->
-
 	</div>
 </template>
 

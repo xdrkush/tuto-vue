@@ -48,14 +48,15 @@ const getters = {
     axios
       .get('https://api.coindesk.com/v1/bpi/currentprice.json')
       .then(res => {
-        // console.log(res.data.bpi)
+        console.log('je suis la')
+        console.log(res.data.bpi)
         state.price = res.data.bpi
         state.converter = res.data.bpi
       })
-      .catch(error => {
-        console.log(error)
-        this.errored = true
-      })
+      // .catch(error => {
+      //   console.log(error)
+      //   this.errored = true
+      // })
   }
 }
 

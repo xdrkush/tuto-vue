@@ -10,17 +10,14 @@
 
 <script>
 import cryptoComponent from "../components/cryptoComponent";
-
 export default {
 	name: "CryptoPage",
 	components: {
 		cryptoComponent
 	},
 	methods: {
-
 	},
 	computed: {
-
 	}
 };
 </script>

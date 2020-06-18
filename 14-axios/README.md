@@ -1,10 +1,10 @@
-# 14 - Axios
+# 11 - Action
 
 Intégration de state avec vuex
   - store
-  - Axios (requete http)
+  - Axios
 
-Source:
+## Source
   - https://fr.vuejs.org/v2/cookbook/using-axios-to-consume-apis.html
   
 ## Project setup
