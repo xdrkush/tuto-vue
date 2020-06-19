@@ -1,8 +1,9 @@
-# 11 - Action
+# 12 - Mutation
 
 Intégration de state avec vuex
   - store
   - mapActions
+  - mapGetters
   
 ## Project setup
 ```

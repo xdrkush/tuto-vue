@@ -1,4 +1,4 @@
-# 11 - Action
+# 13 - Getters
 
 Intégration de state avec vuex
   - store

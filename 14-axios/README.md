@@ -1,11 +1,12 @@
-# 11 - Action
+# 14 - axios
 
-Intégration de state avec vuex
+Intégration de axios avec vuex
   - store
   - Axios
 
-Pour corriger le bug qui fait que le Getter du store crypto (getPrice)
+Pour corriger le bug qui fait que le Getter du store crypto ("getPrice")
   - pour qu'il puissent quand meme charger les data je vous conseille de sortir l'inspecteur vue-devtools
+  - quand on sort le debuguer il force  a charger "getPrice"
   - en attendant il charge les data je debug ça plustard ;)
 
 ## Source
