@@ -53,10 +53,10 @@ const getters = {
         state.price = res.data.bpi
         state.converter = res.data.bpi
       })
-      // .catch(error => {
-      //   console.log(error)
-      //   this.errored = true
-      // })
+      .catch(error => {
+        console.log(error)
+        this.errored = true
+      })
   }
 }
 

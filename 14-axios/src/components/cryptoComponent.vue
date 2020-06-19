@@ -56,12 +56,11 @@
 			</v-row>
 		</v-container>
 		<!-- / Card Bitcoin Price Components -->
-		<!-- / Card Converter -->
 	</div>
 </template>
 
 <script>
-import { mapState, mapActions, mapGetters } from "vuex";
+import { mapState, mapActions } from "vuex";
 export default {
 	data() {
 		return {
@@ -76,8 +75,7 @@ export default {
 		inputConverter() {
 			return this.changeConverter(this.priceBtc)
 		},
-    ...mapState("crypto", ["price", "converter"]),
-    ...mapGetters("crypto", ["getPrice"])
+    ...mapState("crypto", ["price", "converter"])
 	}
 };
 </script>
