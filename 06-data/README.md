@@ -6,9 +6,13 @@ Intégration de data:
   - Data Array
 
 Si l'on observe les components (./src/components/components.vue)
-  - on voit bien que un certain nombre de data on été attribuer
+  - on voit bien que un certain nombre de data on été attribuer dans le script
 
 L'on verra ça plus attentivement au moment de leur utilisation avec les methods, computed, props, state, ...
+
+À quoi ça sert ??
+
+Quand l'on va faire appel à nos components l'on va pouvoir appeler les data qui seront directement instancier.
   
 ## Project setup
 ```

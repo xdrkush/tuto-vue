@@ -3,6 +3,15 @@
 Intégration de state avec vuex
   - store
   - mapActions
+
+./store/store-contact
+  - Ici nous avons déplacer nos methods (Actions) de notre components vers le store
+
+./components/contactComponent
+  - il ne faut pas oublié de le rappeler grâce à vuex et mapActions dans notre components
+
+Source:
+https://vuex.vuejs.org/fr/guide/actions.html
   
 ## Project setup
 ```

@@ -4,9 +4,12 @@ Intégration de Component:
   - Base
   - Simple
   - Advanced
-
-./src/App.vue
+ 
+  - ./src/App.vue
 Ici sont intégrés les composants de façon basique
+
+  - ./src/components
+Ici nous avons les components qu'il nous faut allez chercher pour les integrés.
 
 Nous verons plus en détail les components quand 'vue-router' sera installer et nous aurons un layout dynamique
 

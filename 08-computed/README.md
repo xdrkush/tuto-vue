@@ -5,6 +5,15 @@ Intégration de computed (fonction calculé)
   - computed simple
   - computed advanced
   
+./src/components/titleComponent
+  - Ici nous allons pouvoir recomposer le titre grâce a notre computed
+
+À quoi ça sert ?
+Gràce aux computed nous allons pouvoir stocker des fonctions calculé.
+
+Source:
+https://vuejs.org/v2/guide/computed.html
+
 ## Project setup
 ```
 npm install

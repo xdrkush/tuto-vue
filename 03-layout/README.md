@@ -7,6 +7,7 @@ Template (layout) utilisé:
 Ce Tuto n'est que l'intégration d'un layout (template) fournit par vuetify
 
 ./src/App.vue
+
 Nous ferons l'integration des components dans le prochain tuto (04-Component)
 
 ## Project setup
