@@ -9,7 +9,7 @@ let router = new VueRouter({
       path: "/",
       component: () => import('../layouts/MyLayout.vue'),
       children: [
-        {path: '/', name: 'HomePage', component: () => import('../pages/HomePage.vue')},
+        {path: '', name: 'HomePage', component: () => import('../pages/HomePage.vue')},
         {path: '/contact', name: 'ContactPage', component: () => import('../pages/ContactPage.vue')},
         {path: '/crypto', name: 'CryptoPage', component: () => import('../pages/CryptoPage.vue')}
       ]

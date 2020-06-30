@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "start": "npm run serve",
+    "reinstall": "sudo rm -r node_modules/ && sudo rm -r dist/ && npm i && npm run build",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "del": "sudo rm -r node_modules/ && sudo rm -r dist/",
+    "rebuild": "sudo rm -r dist/ && npm run build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -43,6 +44,15 @@
       "parser": "babel-eslint"
     },
     "rules": {}
+  },
+  "prettier": {
+    "tabWidth": 4,
+    "singleQuote": true
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
   },
   "browserslist": [
     "> 1%",

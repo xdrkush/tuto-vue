@@ -1,7 +1,8 @@
-# 15 - build
+# 15 - build (Bug)
 
 Build application vuejs
   - build
+  - vue.config.js
 
 Au cas ou vous ne l'avez pas remarquer le build ne fonctionne pas correctement depuis le début du tuto
   - 1er je vais vous expliquer comment le faire fonctionner ainsi
@@ -10,8 +11,11 @@ Au cas ou vous ne l'avez pas remarquer le build ne fonctionne pas correctement d
 Pour le build de cette maniere vous avez juste besoin de lancer la commande
 ```
 npm run build
+npm i -g serve
+serve -s dist
 ```
-Ensuite entrer dans dist et le lancer avec visual code studio
+
+ou entrer dans dist et le lancer avec visual code studio
 ```
 cd dist/
 code .
@@ -23,6 +27,7 @@ Une fois dans visual code studio télécharger l'extension 'live server'
 
 ## Source
   - https://fr.vuejs.org/v2/guide/deployment.html
+  - https://cli.vuejs.org/config/#outputdir
   
 ## Project setup
 ```
