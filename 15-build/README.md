@@ -1,4 +1,4 @@
-# 15 - build (Bug)
+# 15 - build
 
 Build application vuejs
   - build
@@ -24,6 +24,14 @@ Une fois dans visual code studio télécharger l'extension 'live server'
   - ensuite pour lancer l'application builder
   - clik droit sur le index.html
   - open with a live server (qui devrais ce lancer sur le locahost:5500)
+
+--- ---
+
+Le build est réparé, vous n'avez qu'à lancer la commande:
+```
+npm run build
+```
+récuperer l'index.html dans le dossier dist et injecter le dans votre navigateur
 
 ## Source
   - https://fr.vuejs.org/v2/guide/deployment.html
