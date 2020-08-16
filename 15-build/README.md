@@ -4,6 +4,7 @@ Build application vuejs
   - build
   - vue.config.js
 
+
 Au cas ou vous ne l'avez pas remarquer le build ne fonctionne pas correctement depuis le début du tuto
   - 1er je vais vous expliquer comment le faire fonctionner ainsi
   - 2eme on va le rebuild avec une config maison (en attente)
