@@ -1,5 +1,5 @@
 # tuto-vue
-Tuto Vue (en cours)
+Tuto Vue (à tester)
 
 Vous allez me dire le tuto est très léger !
 
